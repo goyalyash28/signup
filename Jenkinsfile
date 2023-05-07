@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     echo "Deploying the application..."
-                    bat 'start /B /MIN java -jar target/com.inn.test-v1.jar &'
+                    bat 'java -jar target/com.inn.test-v1.jar'
 
                 }
             }
